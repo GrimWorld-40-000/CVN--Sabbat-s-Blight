@@ -19,6 +19,7 @@
             <AccuracyMedium>0.85</AccuracyMedium>
             <AccuracyLong>0.75</AccuracyLong>
             <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
+            <MarketValue>400</MarketValue>
         </statBases>
         <costList>
             <Steel>100</Steel>
@@ -32,7 +33,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Projectile_CVN_BP_Lasgun</defaultProjectile>
+                <defaultProjectile>GW_HOI_Bullet_Lasgun</defaultProjectile>
                 <warmupTime>1.20</warmupTime>
                 <range>34.9</range>
                 <soundCast>GW_AM_Gun_Kantrael</soundCast>
@@ -70,42 +71,6 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef>
-	
-	<ThingDef ParentName="BaseBullet">
-        <defName>Projectile_CVN_BP_Lasgun</defName>
-        <label>Laser</label>
-        <description>a laser</description>
-        <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
-        <drawOffscreen>true</drawOffscreen>
-        <seeThroughFog>true</seeThroughFog>
-        <graphicData>
-            <graphicClass>Graphic_Single</graphicClass>
-            <texPath>Projectiles/Las_Bolt</texPath>
-            <shaderType>TransparentPostLight</shaderType>
-            <drawSize>1</drawSize>
-        </graphicData>
-        <projectile>
-            <damageDef>Burn</damageDef>
-            <damageAmountBase>20</damageAmountBase>
-            <armorPenetrationBase>0.15</armorPenetrationBase>
-            <stoppingPower>0.7</stoppingPower>
-            <speed>1000</speed>
-        </projectile>
-        <modExtensions>
-            <li Class="taranchuk_lasers.LaserProperties">
-                <damageTickRate>9</damageTickRate>
-                <lifetimeTicks>8</lifetimeTicks>
-                <beamWidth>1</beamWidth>
-                <beamWidthDrawScale>1</beamWidthDrawScale>
-                <sweepRatePerTick>0</sweepRatePerTick>
-                <maxSweepAngle>0</maxSweepAngle>
-                <damageThingsAcrossBeamLine>false</damageThingsAcrossBeamLine>
-                <debugCells>false</debugCells>
-                <textureScrollOffsetPerTick>(0, -0.1)</textureScrollOffsetPerTick>
-                <lockOnTarget>false</lockOnTarget>
-            </li>
-        </modExtensions>
     </ThingDef>
  
     <ThingDef ParentName="GW_AM_LasgunBase">
