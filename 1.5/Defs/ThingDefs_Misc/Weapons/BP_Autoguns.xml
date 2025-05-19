@@ -78,7 +78,7 @@
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
         </verbs>
-        <weaponTags>
+        <weaponTags Inherit="False">
             <li>BPranged1</li>
         </weaponTags>
         <tools>
@@ -150,7 +150,7 @@
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
         </verbs>
-        <weaponTags>
+        <weaponTags Inherit="False">
             <li>BPranged1</li>
         </weaponTags>
         <tools>
@@ -223,7 +223,7 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
+    <weaponTags Inherit="False">
      <li>BPranged1</li>
     </weaponTags>
     <tools>
@@ -300,7 +300,7 @@
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
         </verbs>
-		<weaponTags>
+		<weaponTags Inherit="False">
             <li>BPranged3</li>
         </weaponTags>
         <tools>

@@ -25,7 +25,7 @@
             <Steel>100</Steel>
             <ComponentIndustrial>9</ComponentIndustrial>
         </costList>
-        <weaponTags>
+        <weaponTags Inherit="False">
             <li>BPranged2</li>
             <li>BPlasGuns</li>
         </weaponTags>
@@ -92,7 +92,7 @@
             <AccuracyLong>0.60</AccuracyLong>
             <RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
         </statBases>
-        <weaponTags>
+        <weaponTags Inherit="False">
             <li>BPranged2</li>
             <li>BPlasGuns</li>
          </weaponTags>
@@ -204,7 +204,7 @@
             <Steel>100</Steel>
             <ComponentIndustrial>9</ComponentIndustrial>
         </costList>
-        <weaponTags>
+        <weaponTags Inherit="False">
             <li>BPlongLasTag</li>
         </weaponTags>
         <verbs>
