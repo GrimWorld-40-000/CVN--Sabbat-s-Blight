@@ -137,7 +137,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_AM_Bullet_Flamer</defaultProjectile>
+				<defaultProjectile>GW_Bullet_Flamer</defaultProjectile>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
 				<warmupTime>1.25</warmupTime>
 				<range>14</range>
