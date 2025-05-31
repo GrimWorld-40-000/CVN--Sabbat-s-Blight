@@ -89,7 +89,7 @@
 		</projectile>
 	</ThingDef>
 
-		<ThingDef ParentName="GW_AM_FlamerBase">
+		<ThingDef ParentName="GW_HOI_FlamerBase">
 		<defName>GW_BP_Flamer</defName>
 		<label>Blood Pact Flamer</label>
 		<description>A man-portable flamer used by warriors of the Blood Pact. Imperial forces facing this weapon are consumed in a tide of blazing promethium. \n\nThe burns caused by flamers spill no blood, but Khorne nevertheless remains pleased at the death of his enemies.</description>
