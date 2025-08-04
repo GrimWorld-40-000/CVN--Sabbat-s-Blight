@@ -12,7 +12,7 @@
 		<magazineCapacity>100</magazineCapacity>
 		<chargePerAmmoCount>1</chargePerAmmoCount>
 		<genericAmmo>true</genericAmmo>
-		<hitFlags>IntendedTarget</hitFlags>
+		<!-- <hitFlags>IntendedTarget</hitFlags> -->
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<rotationSpeed>2.0</rotationSpeed>
 		<projectileOffset>1.5</projectileOffset>

@@ -34,7 +34,7 @@
 		<magazineCapacity>1</magazineCapacity>
 		<chargePerAmmoCount>1</chargePerAmmoCount>
 		<genericAmmo>true</genericAmmo>
-		<hitFlags>IntendedTarget</hitFlags>
+		<!-- <hitFlags>IntendedTarget</hitFlags> -->
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<rotationSpeed>1.5</rotationSpeed>
 		<projectileOffset>4.0</projectileOffset>
@@ -83,7 +83,7 @@
 		<magazineCapacity>1</magazineCapacity>
 		<chargePerAmmoCount>1</chargePerAmmoCount>
 		<genericAmmo>true</genericAmmo>
-		<hitFlags>IntendedTarget</hitFlags>
+		<!-- <hitFlags>IntendedTarget</hitFlags> -->
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<rotationSpeed>1.5</rotationSpeed>
 		<projectileOffset>4.0</projectileOffset>
@@ -132,7 +132,7 @@
 		<magazineCapacity>1</magazineCapacity>
 		<chargePerAmmoCount>1</chargePerAmmoCount>
 		<genericAmmo>true</genericAmmo>
-		<hitFlags>IntendedTarget</hitFlags>
+		<!-- <hitFlags>IntendedTarget</hitFlags> -->
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<rotationSpeed>1.5</rotationSpeed>
 		<projectileOffset>4.0</projectileOffset>
