@@ -188,8 +188,8 @@
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
         <defName>GW_BP_Melta</defName>
-        <label>Pact Melta</label>
-        <description>WIP</description>
+        <label>Pact melta</label>
+        <description>Blood Pact melta is a short-range, high-intensity energy weapon that melts through heavily armored targets and fortifications with concentrated thermal blasts.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Meltagun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
