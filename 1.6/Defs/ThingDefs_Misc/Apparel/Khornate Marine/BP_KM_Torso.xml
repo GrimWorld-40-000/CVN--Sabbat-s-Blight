@@ -73,11 +73,10 @@
             <GW_ChaosSpikes>3</GW_ChaosSpikes>
 		</costList>
 	 <modExtensions>
-      <li Class="taranchuk_apparelgraphics.ApparelExtension">
-       <hideBody>True</hideBody>
-       <femaleBody>Male</femaleBody>
-       <maleBody>Male</maleBody>
-      </li>
+		<li Class="VEF.Apparels.ApparelExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
      </modExtensions>
     </ThingDef>
 
